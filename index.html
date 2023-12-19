@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Герои Dota</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="heroesContainer"></div>
+    <input type="text" id="heroName" placeholder="Имя героя">
+    <input type="text" id="heroClass" placeholder="Класс героя">
+    <button id="addButton">Добавить героя</button>
+    <button id="str" onclick="filterHeroes('Сила')">Сила</button>
+    <button id="agl" onclick="filterHeroes('Ловкач')">Ловкач</button>
+    <button id="int" onclick="filterHeroes('Интеллект')">Интеллект</button>
+    <button id="reset" onclick="resetFilter()">Сбросить</button>
+    <script src="./script.js"></script>
+</body>
+</html>
